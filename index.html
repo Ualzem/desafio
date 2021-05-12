@@ -7,12 +7,22 @@
     <title>Page Title</title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
     <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <link href="https://fonts.googleapis.com/css2?family=Chilanka&family=Montserrat:wght@500&display=swap" rel="stylesheet">
 
 </head>
 
 <body>
+    <h2>Lista de Posts:</h2>
+    <div id="bg"></div>
+    <div class="box"> <a href="" id="close"> X </a>
+        <div class="conteudo">
+            <h2>Título do Post</h2>
+            <p class="conteudo-corpo">Conteúdo do Post</p>
+        </div>
+    </div>
+    <main>
 
-    <main></main>
+    </main>
 
 </body>
 
@@ -31,15 +41,16 @@
     getContent()
 
     function show(posts) {
-        let output = '<h2>Lista de Posts:</h2>'
+        let output = ''
 
         for (let user of posts) {
-            output += `<li><a href="https://www.google.com.br/">${user.title}</a>
+            output += `<li><a href="#bg">${user.title}</a>
                 
                 </li>`
         }
 
         document.querySelector('main').innerHTML = output
+
     }
 </script>
 
