@@ -28,20 +28,3 @@ The build is minified and the filenames include the hashes.\
 Your app is ready to be deployed!
 
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### Maiores dificuldades:
-
-Consegui criar as 2 views conforme solicitado, porém não consegui fazer com que a segunda view exibisse o relativo post ao ser clicado.
-
-
-
-### Possíveis Melhorias no projeto:
-
-Aplicação de estilização com CSS3, pois devido ao tempo curto (para mim que ainda não tenho experiência o bastante) não tive como caprichar mais.
-Gostaria muito de aprender como executar esse projeto na íntegra e de forma mais correta possível.
-
-
-
-### Considerações Finais:
-
-Gostei muito deste desafio. Me dediquei ao máximo e gostaria de fazer parte da equipe e estar sempre aprendendo um pouco mais. Obrigado.
