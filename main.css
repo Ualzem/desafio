@@ -42,6 +42,8 @@ li {
 }
 
 .box {
+    display: flex;
+    flex-wrap: wrap;
     width: 500px;
     height: 300px;
     background: coral;
@@ -51,14 +53,27 @@ li {
     top: -410px;
 }
 
-h2 {
+.title {
     font-family: "Montserrat";
     font-size: 2em;
     text-align: center;
 }
 
+.conteudo {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
 .conteudo-corpo {
+    font-family: "Montserrat";
     font-size: 1.8em;
+    text-align: center;
+}
+
+.conteudo-title {
+    font-family: "Montserrat";
+    font-size: 2.8em;
     text-align: center;
 }
 
